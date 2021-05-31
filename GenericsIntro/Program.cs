@@ -6,10 +6,15 @@ namespace GenericsIntro
     {
         static void Main(string[] args)
         {
-            MyList<string> names = new MyList<string>();
-            MyList<int> names2 = new MyList<int>();
+            MyList<string> names = new MyList<string>(); 
             names.Add("Aleyna");
-            names2.Add(10);
+            Console.WriteLine(names.Lenght);
+            names.Add("Yağmur");
+            Console.WriteLine(names.Lenght);
+            foreach (var item in names.Items)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
