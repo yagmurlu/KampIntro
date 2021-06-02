@@ -14,6 +14,7 @@ namespace GenericsIntro
             foreach (var item in names.Items)
             {
                 Console.WriteLine(item);
+                Console.WriteLine(item);
             }
         }
     }
