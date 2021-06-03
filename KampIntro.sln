@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{93F616B2-8987-4974-B025-EF41589515E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{706D7921-5A9A-4C05-AFEE-A07319EDA747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors", "Constructors\Constructors.csproj", "{706D7921-5A9A-4C05-AFEE-A07319EDA747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{216DB3A7-570D-4CEE-97BB-120C15216498}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{216DB3A7-570D-4CEE-97BB-120C15216498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictonary", "Dictonary\Dictonary.csproj", "{37957D79-7171-4A30-A4C2-3A1CBF8E0639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{216DB3A7-570D-4CEE-97BB-120C15216498}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{216DB3A7-570D-4CEE-97BB-120C15216498}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{216DB3A7-570D-4CEE-97BB-120C15216498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37957D79-7171-4A30-A4C2-3A1CBF8E0639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37957D79-7171-4A30-A4C2-3A1CBF8E0639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37957D79-7171-4A30-A4C2-3A1CBF8E0639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37957D79-7171-4A30-A4C2-3A1CBF8E0639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

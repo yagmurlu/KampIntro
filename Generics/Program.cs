@@ -31,7 +31,7 @@ namespace Generics
         {
             _array = new T[0];
         }
-        //count bir propperty dir. sadece get ile çalışır.
+        
         public void Add(T item)
         {
             _tempArray = _array;
@@ -42,11 +42,12 @@ namespace Generics
             }
             _array[_array.Length - 1] = item;//diziye sondan ekleme
         }
-
+        //count bir propperty dir. sadece get ile çalışır.
         public int Count//propfull +tab+tab//arrayin eleman sayısını verir.
         {
             get { return _array.Length; }
            
         }
+      
     }
 }
