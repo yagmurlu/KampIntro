@@ -23,7 +23,7 @@ namespace GenericsIntro
             {
                 items[i] = tempArray[i];
             }
-            items[items.Length - 1] = item;//eklenmek istenilen elemanı ekledim.
+            items[items.Length - 1] = item;//listenin sonuna eklenmek istenilen elemanı ekledim.
         }
         public int Lenght
         {
