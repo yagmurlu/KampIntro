@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace OOP3
 {
-    class IhtiyacKrediManager : KrediManager
+    class IhtiyacKrediManager : IKrediManager
     {
+        public void BiseyYap()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Hesapla()
+        {
+            Console.WriteLine("İhtiyaç kredisi hesaplandı");
+        }
     }
 }
