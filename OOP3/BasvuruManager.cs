@@ -9,11 +9,19 @@ namespace OOP3
     class BasvuruManager
     {
         // method injection
-        public void BasvuruYap(IKrediManager krediManager ,ILoggerService loggerService)
+        //birden fazla loger yolamak istediğimizde list tutarız
+        //bir tane olsaydı =>public void BasvuruYap(IKrediManager krediManager ,ILoggerService loggerService)
+        public void BasvuruYap(IKrediManager krediManager ,List<ILoggerService> loggerService)
         {
             
             krediManager.Hesapla();
-            loggerService.Log();
+            // loggerService.Log();// =>Bir tane log yolladığımız için bu yeterliydi
+            //Birden fazla loger yollayacağımız için foreach kullanmalıyız
+            foreach (var logger in loggerService)
+            {
+                logger.Log();
+            }
+
         }
         public void KrediOnBilgilendirmesiYap(List<IKrediManager> krediler)
         {
