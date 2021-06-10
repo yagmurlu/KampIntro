@@ -15,7 +15,7 @@ namespace OOP3
 
         public void Hesapla()
         {
-            Console.WriteLine("İhtiyaç kredisi hesaplandı");
+            Console.WriteLine("İhtiyaç kredisi hesaplandı!");
         }
     }
 }
