@@ -12,5 +12,9 @@ namespace Interfaces
         {
             customerDal.Add();
         }
+        public void Update(ICustomerDal customerDal)
+        {
+            customerDal.Update();
+        }
     }
 }

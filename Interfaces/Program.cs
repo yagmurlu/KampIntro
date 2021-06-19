@@ -7,10 +7,12 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
-            //OracleDal oracleDal = new OracleDal();
-            //CustomerManager customerManager = new CustomerManager();
-            //customerManager.Add(oracleDal);
-
+            //MANAGER kullanımı
+            OracleDal oracleDal = new OracleDal();
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(oracleDal);
+            customerManager.Update(oracleDal);
+            Console.WriteLine("-----------------------------------------------------");
             ICustomerDal[] customerDals = new ICustomerDal[]
             {
                 new OracleDal(),
@@ -19,6 +21,7 @@ namespace Interfaces
             foreach (var customerDal in customerDals)
             {
                 customerDal.Add();
+                
             }
         }
     }

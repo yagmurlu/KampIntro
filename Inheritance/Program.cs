@@ -10,12 +10,12 @@ namespace Inheritance
             {
                 new Student{FirstName="Yağmur",School="NEÜ"},
                 new Woker{FirstName="Ali",Departman="Bilişim"},
-                
+              
             };
             foreach (var people in persons)
             {
                 Console.WriteLine(people.FirstName);
-               
+                
             }
         }
     }
